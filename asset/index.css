@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth !important;
+  }
+
+.first{
+    height: 100vh;
+    background: url("stars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+#particle-js{
+    height: 100vh;
+    background: rgba(39,62,84,0.7);
+    z-index: -10;  
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 10vh;
+    background-color: transparent;
+}
+.head{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 2vh;
+    letter-spacing: 0.5vh;
+}
+.heading{
+    font-family: 'Crete Round', serif;
+    color: white;
+    font-size: 8vh;
+    letter-spacing: 1vw;
+    font-weight: bold;
+    background-color: transparent;
+}
+.buttons{
+    padding-top:4vh;
+}
+.btne1{
+    background-color: transparent;
+    border:2px solid white;
+    height: 5vh;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    padding-left:4vh;
+    padding-right: 4vh;
+    font-size: 2vh;
+    letter-spacing: 0.2vh;
+}
+.down{
+    padding-top: 15vh;
+}
+
+
+/* second section */
+
+.heading2{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8vh;
+    font-size: 3.5vh;
+    letter-spacing: 0.3vh;
+}
+.content{
+    padding-top:5vh;
+    font-family: 'PT Sans', sans-serif;
+    padding-right: 12vw;
+    padding-left: 12vw;
+    padding-bottom: 5vw;
+    font-size: 2.2vh;
+    color:rgb(124, 124, 124);
+    letter-spacing: 0.1vw;
+}
+
+/* third Section */
+
+.third{
+    padding-top: 5vh;
+    background-color: #333333;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.2vh;
+    padding-bottom:10vh;
+    color:white
+}
+.heading3{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5vh;
+    padding-bottom: 6vh;
+    font-size: 2.5vh;
+    letter-spacing: 0.3vh;
+}
+.facts{
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+.png{
+    width: 5vh;
+    height: 5vh;
+}
+
+/* fourth Section */
+.heading4{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8vh;
+    padding-bottom: 1.3vw;
+    font-size: 3vh;
+    letter-spacing: 0.5vh;
+}
+.highlights{
+    padding-bottom: 3vw;
+}
+.high{
+    height:30vh;
+    width:42vh;
+    border:0px;
+}
+.pad{
+    padding-top:2vh;
+    padding-bottom: 2vh;
+}
+.btne{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #f12635;
+    border:0px;
+    border-radius: 1vh;
+    color:white;
+    height: 5vh;
+    width: 20vh;
+    font-size: 2.2vh;
+}
+
+/*fifth section*/
+.fourth{
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    color:white;
+    background-color: #333333;
+    font-family: 'PT Sans', sans-serif;
+}
+.png3{
+    width: 8vh;
+    height: 8vh;
+}
+.review{
+    font-size: 3vh;
+    letter-spacing: 0.2vw;
+    padding-top:5vh;
+}
+.rev{
+    padding-top:3vh;
+    padding-bottom:3vh;
+    letter-spacing:0.1vw;
+    font-size:2vh;
+}
+.name{
+    padding-left:20vh;
+    font-size:2vh;
+    letter-spacing: 0.3vh;
+    padding-bottom: 5vh;
+}
+
+.contact{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.2vh;
+    letter-spacing: 0.vw;
+    color:rgb(124, 124, 124);
+    padding-bottom: 7vh;
+    padding-top: 2vw;
+}
+.details{
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.1vw;
+    color:rgb(124, 124, 124);
+    padding-bottom: 8vh;
+    padding-top: 3vh;
+}
+
+
+.maps {
+    width: 100vh;
+    height: 60vh;
+    background-color: grey;
+  }
+
+/*last section*/
+
+.footer{
+    background-color: rgb(245, 245, 245);
+}
+.png2{
+    height: 4vh;
+    width: 4vh;
+    border-radius: 10vh;
+}
+.icons{
+    padding-top:6vh;
+    padding-bottom: 6vh;
+}
+.foot{
+    padding-bottom: 2vh;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.5vw;
+    font-size: 2vh;
+}
+.foot-name{
+    padding-bottom: 3vw;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.2vw;
+    font-size: 1.8vh;
+}
+
+/* Small Display Code */
+
+@media(max-width: 800px) {
+    body {
+        padding: 0;
+    }
+    .content{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .high{
+        height:30vh;
+        width:50vh;
+        border:0px;
+    }
+    .logo{
+        height: 10vh;
+        width: 10vh;
+        border-radius: 10vh;
+        background-color: transparent;
+    }
+    .head{
+        padding-top: 7vh;
+    } 
+    .maps {
+        width: 80vw;
+        height: 60vh;
+        background-color: grey;
+      }
+}

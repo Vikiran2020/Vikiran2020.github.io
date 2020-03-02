@@ -1,0 +1,32 @@
+.first{
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.color{
+    background-color: rgba(39,62,84,0.7);
+    height: 100vh;;
+}
+.pad{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.content{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    border-radius: 2vh;
+    font-size: 3vh;
+    letter-spacing: 0.2vh;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn{
+    border-radius: 0px;
+    color:white;
+    background-color: #f12635;
+    height: 5vh;
+    width: 15vh;
+    border-radius: 2vh;
+}
